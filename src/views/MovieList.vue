@@ -1,5 +1,6 @@
 <script setup>
     import { Splide, SplideSlide } from '@splidejs/vue-splide';
+    import { apiKey, baseUrl } from '../api/index';
 </script>
 
 
@@ -54,9 +55,6 @@
 
 
 <script type="module">
-
-    const apiKey = 'api_key=26665d239c52005e4ebb0913a184b7e6';
-    const baseUrl = 'https://api.themoviedb.org/3/';
     const genresList = baseUrl + 'genre/movie/list?language=fr&' + apiKey;
     const voteMin = 100;
 

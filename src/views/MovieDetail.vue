@@ -1,3 +1,8 @@
+<script setup>
+    import { apiKey, baseUrl } from '../api/index';
+</script>
+
+
 <template>
     <nav id="ariane">
         <ol>
@@ -84,9 +89,6 @@
 </template>
 
 <script>
-    const apiKey = 'api_key=26665d239c52005e4ebb0913a184b7e6';
-    const baseUrl = 'https://api.themoviedb.org/3/';
-
     export default {
         name: 'film',
         data(){

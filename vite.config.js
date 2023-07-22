@@ -13,7 +13,7 @@ export default defineConfig({
             return tag.startsWith('swiper-') // (return true)
           }
         }
-      }
+      },
     }
   )],
   resolve: {
